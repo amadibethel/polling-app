@@ -27,6 +27,29 @@ The Polling App is being developed as part of the **ALX AI Software Engineering 
 
 ---
 
+## Project Structure
+
+polling-app/
+ ├─ app/
+ │   ├─ auth/
+ │   │   ├─ login/page.tsx
+ │   │   ├─ register/page.tsx
+ │   ├─ layout.tsx
+ │   ├─ page.tsx
+ │
+ ├─ components/
+ │   ├─ LoginForm.tsx
+ │   ├─ RegisterForm.tsx
+ │
+ ├─ lib/
+ │   ├─ supabaseClient.ts
+ │   ├─ auth-context.tsx
+ │
+ ├─ .env.local
+ ├─ package.json
+
+---
+
 ## Tech Stack
 
 - **Framework**: Next.js 14 (with TypeScript, App Router)  
